@@ -1,0 +1,27 @@
+
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+.driver-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.driver-card, .driver-profile {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #ccc;
+  width: 250px;
+}
+
+button {
+  padding: 10px;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
